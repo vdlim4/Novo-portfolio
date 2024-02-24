@@ -1,0 +1,28 @@
+/* SWIPER PROJETOS*/
+.swiper, .swiper img{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    width: 350px;
+    height: 224px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+/* SWIPER SKILLS*/
+.skills .swiper {
+    padding-top: 1rem;
+    width: 280px;
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+.skills:hover .swiper {
+    width: 350px;
+    transition: 0.3s;
+}
+
+.skills .swiper .swiper-slide img {
+    width: 180px;
+    height: 180px;
+    box-shadow: none;
+    filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.514));
+}

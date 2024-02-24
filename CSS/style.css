@@ -1,0 +1,155 @@
+html, body {
+    background-image: url(/IMG/fundo-teste.svg);
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin: 0 15%;
+}
+
+.titulo {
+    padding-bottom: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+main {
+    color: #FFAC41;
+}
+
+.cabecalho {
+    background-color: #323232;
+    border-bottom: 1px solid #FFAC41;
+    box-shadow: 0px 1px 300px 2px #FFAC41;
+    color: #FFAC41;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+.cabecalho a {
+    background-color: #000000;
+    box-shadow: 10px 0px 10px -5px rgba(0,0,0,0.5), -10px 0px 10px -5px rgba(0,0,0,0.5);
+    color: #FFAC41;
+    font-size: 1.5rem;
+    line-height: 50px;
+    margin: 0 2rem;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+.quadros {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 5rem 0 0 0;
+}
+
+.quadros a {
+    background-color: #323232;
+    border-radius: 5px;
+    color: #FFAC41;
+    height: 700px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+    width: 280px;
+}
+
+.quadros a:nth-child(2) {
+    width: 350px;
+}
+
+.quadros a:hover {
+    width: 350px;
+    transition: 0.3s;
+}
+
+.img-perfil {
+    border: solid #000000;
+    border-radius: 50%;
+    box-shadow: 2px 5px 8px 5px rgba(0, 0, 0, 0.192), -5px -5px 8px -5px rgba(0, 0, 0, 0.192);
+    margin: 20px; 
+    width: 200px;
+}
+
+.sobre-info {
+    list-style: none;
+    padding: 0;
+}
+
+.sobre-spoiler {
+    margin: 15px;
+    padding-top: 1rem;
+}
+
+.texto-web {
+    padding-top: 2rem;
+}
+
+.icones {
+    filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.514));
+    padding: 2rem 0.5rem;
+    width: 80px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills img {
+    padding-top: 1rem;
+    filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.514));
+    width: 250px;
+}
+
+.contato ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato img {
+    filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.514));
+    width: 200px;
+}
+
+.contato p {
+    margin: 15px;
+}
+
+.icones-contato {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4rem;
+    padding: 4rem 20px 0 20px;
+}
+
+.icones-contato img {
+    width: 50px;
+}
+
+.main-obrigado {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.painel-obrigado {
+    background-color: #323232;
+    border: solid;
+    border-radius: 5px;
+    margin-top: 10rem;
+    text-align: center;
+    width: 50%;
+}
+
+.painel-obrigado img {
+    padding: 2rem;
+    width: 50px;
+}

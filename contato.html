@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+    <title>Contato - Victor Lima</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <p>Desenvolvido por: </p>
+        <a href="index.html">Victor Lima</a>
+    </header>
+    <main class="container">
+        <h1 class="titulo">Contato</h1>
+        <div class="painel">
+            <h2>Orçamentos, dúvidas, informações...</h2>
+            <p>Me envie um e-mail, uma mensagem, me faça uma ligação ou até mesmo uma carta!</p>
+            <form class="formulario" action="https://formsubmit.co/victord2704@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Escreve logo o que você quer..." required></textarea>
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+            </form>           
+            <p>Aqui estão minhas redes Sociais:</p>
+            <div>
+                <a href="https://api.whatsapp.com/send?phone=5541991127084" target="_blank">
+                    <img src="/IMG/whats.svg" alt="Ícone whatsapp">
+                </a>
+                <a href="https://github.com/vdlim4" target="_blank">
+                    <img src="/IMG/github.svg" alt="Ícone whatsapp">
+                </a>
+                <a href="https://www.instagram.com/victorlima_d/" target="_blank">
+                    <img src="/IMG/instagram.svg" alt="Ícone whatsapp">
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.projetos-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.projetos-lista a {
+    border: solid #FFAC41;
+    border-radius: 5px;
+    display: flex;
+    height: 224px;
+}
+
+.projetos-lista a img {
+    width: 350px;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.projetos-lista a span {
+    margin-top: 3rem;
+    opacity: 0;
+    position: absolute;
+    pointer-events: none;
+    text-align: center;
+    width: 350px;
+}
+
+.projetos-lista a:hover img {
+    filter: opacity(0.1);
+    transition: 0.3s;
+}
+
+.projetos-lista a:hover span {
+    color: #ffffff;
+    opacity: 1;
+    transition: 0.3s;
+}

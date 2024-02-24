@@ -1,0 +1,30 @@
+.painel {
+    background-color: #323232;
+    border: solid;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.sobre-chamada {
+    align-items: center;
+    display: flex;
+}
+
+.painel img {
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    border-top-left-radius: 5px;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.37);
+    height: 350px;
+}
+
+.painel p {
+    font-size: 1.5rem;
+    margin: 25px;
+    filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.514));
+}
+
+.sobre-dinfos {
+    display: flex;
+    justify-content: space-around;
+}

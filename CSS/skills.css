@@ -1,0 +1,47 @@
+.painel {
+    background-color: #323232;
+    border: solid;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.painel h2, .painel li {
+    filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.514));
+}
+
+.skills-texto {
+    list-style: none;
+    padding: 0;
+    font-size: 1.3rem;
+}
+
+.skills-texto li a {
+    color: #f0c690;
+    text-decoration: none;
+}
+
+.skills-texto li a:hover {
+    color: #af8856;
+}
+
+.soft-hard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.soft-hard div {
+    width: 40%;
+}
+
+.soft-hard ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.soft-hard img {
+    width: 100px;
+}
