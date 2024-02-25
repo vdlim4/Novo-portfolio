@@ -185,6 +185,7 @@ main {
     .quadros a:nth-child(2) {
         width: 90%;
     }
+
 }
 
 @media screen and (max-width: 1230px) {
@@ -192,5 +193,11 @@ main {
         flex-wrap: wrap;
         padding-bottom: 2rem;
         padding-top: 2rem;
+    }
+}
+
+@media (hover: none) {
+    .quadros a:hover {
+        width: 90%;
     }
 }
