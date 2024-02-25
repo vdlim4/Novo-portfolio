@@ -2,6 +2,7 @@
     background-color: #323232;
     border: solid;
     border-radius: 5px;
+    padding: 10px;
     text-align: center;
     width: 100%;
 }
@@ -43,5 +44,36 @@
 }
 
 .soft-hard img {
-    width: 100px;
+    width: 90px;
+}
+
+@media only screen and (max-width: 1023px) {
+    main {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .painel {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .soft-hard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .soft-hard div {
+        width: 90%;
+    }
+
+    .skills-texto li {
+        padding-bottom: 1rem;
+    }
+
+    .soft-hard img {
+        width: 60px;
+    }
 }

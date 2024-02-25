@@ -11,9 +11,9 @@
 }
 
 .painel img {
-    border-bottom: 1px solid;
-    border-right: 1px solid;
     border-top-left-radius: 5px;
+    border: 1px solid;
+    border-top-right-radius: 5px;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.37);
     height: 350px;
 }
@@ -27,4 +27,45 @@
 .sobre-dinfos {
     display: flex;
     justify-content: space-around;
+}
+
+@media only screen and (max-width: 350px) {
+    .painel img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    main {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .painel {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .sobre-chamada {
+        flex-direction: column;
+    }
+
+    .sobre-chamada p {
+        font-size: 1.2rem;
+    }
+
+    .painel img {
+        border: 1px solid;
+        border-top-right-radius: 5px;
+    }
+
+    .sobre-dinfos {
+        flex-direction: column;
+    }
+
+    .sobre-dinfos p {
+        font-size: 1.2rem;
+    }
 }

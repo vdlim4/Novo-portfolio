@@ -26,3 +26,9 @@
     box-shadow: none;
     filter: drop-shadow(3px 3px 8px rgba(0, 0, 0, 0.514));
 }
+
+@media only screen and (max-width: 400px) {
+    .swiper {
+        width: auto;
+    }
+}

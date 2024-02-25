@@ -46,7 +46,7 @@ main {
     justify-content: center;
     list-style: none;
     margin: 0;
-    padding: 5rem 0 0 0;
+    padding: 5rem 0 2rem 0;
 }
 
 .quadros a {
@@ -152,4 +152,45 @@ main {
 .painel-obrigado img {
     padding: 2rem;
     width: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    header p {
+        display: none;
+    }
+
+    .container {
+        margin: 0;
+    }
+    
+    .quadros a {
+        height: auto;
+        padding-bottom: 2rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        margin: 0;
+    }
+
+    .titulo {
+        padding-bottom: 2rem;
+    }
+
+    .quadros a {
+        width: 90%;
+    }
+
+    .quadros a:nth-child(2) {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .quadros {
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+    }
 }

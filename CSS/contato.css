@@ -8,8 +8,10 @@ main {
     background-color: #323232;
     border: solid;
     border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 2rem;
     text-align: center;
-    width: 60%;
+    width: 50%;
 }
 
 .painel p:nth-child(4) {
@@ -39,11 +41,29 @@ main {
     border-radius: 5px;
     margin-top: 10px;
     padding-left: 10px;
-    width: 30%;
+    width: 50%;
 }
 
 .formulario textarea {
     border-radius: 5px;
     margin: 10px;
-    width: 40%;
+    width: 60%;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 1023px) {
+    .painel {
+        width: 85%;
+        padding: 10px;
+        margin-bottom: 2rem;
+    }
+
+    .formulario input {
+        width: 80%;
+        height: 25px;
+    }
+
+    .formulario textarea {
+        width: 80%;
+    }
 }
