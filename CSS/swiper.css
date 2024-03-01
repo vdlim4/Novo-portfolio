@@ -15,11 +15,6 @@
     transition: 0.3s;
 }
 
-.skills:hover .swiper {
-    width: 350px;
-    transition: 0.3s;
-}
-
 .skills .swiper .swiper-slide img {
     width: 180px;
     height: 180px;
