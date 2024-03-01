@@ -74,6 +74,10 @@ main {
     z-index: 99;
 }
 
+.quadros a:active {
+    transform: scale(1.05, 1.05);
+}
+
 .img-perfil {
     border: solid #000000;
     border-radius: 50%;
@@ -202,6 +206,6 @@ main {
 
 @media (hover: none) {
     .quadros a:hover {
-        width: 90%;
+        transform: none;
     }
 }
