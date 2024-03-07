@@ -162,6 +162,14 @@ main {
     width: 50px;
 }
 
+footer {
+    width: 100vw;
+    bottom: 0;
+    color: #FFAC41;
+    position: fixed;
+    text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
     header p {
         display: none;
@@ -174,26 +182,16 @@ main {
     .quadros a {
         height: auto;
         padding-bottom: 2rem;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .container {
-        margin: 0;
+        width: 90%;
     }
 
     .titulo {
         padding-bottom: 2rem;
     }
 
-    .quadros a {
-        width: 90%;
-    }
-
     .quadros a:nth-child(2) {
         width: 90%;
     }
-
 }
 
 @media screen and (max-width: 1230px) {
@@ -201,6 +199,12 @@ main {
         flex-wrap: wrap;
         padding-bottom: 2rem;
         padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    footer {
+        position: relative;
     }
 }
 
