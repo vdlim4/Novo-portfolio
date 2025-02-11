@@ -1,7 +1,7 @@
 //Texto automatico
 window.addEventListener('load', function() {
     const spoilerText = document.querySelector('.sobre-spoiler')
-    const text = "Me chamo Victor Diego de Lima, tenho 23 anos e sou apaixonado por tecnologia, desde criança adoro mexer no computador e aprender coisas novas sobre..."
+    const text = "Me chamo Victor Diego de Lima, tenho 24 anos e sou apaixonado por tecnologia, desde criança adoro mexer no computador e aprender coisas novas sobre..."
     let indice = 0
 
     const intervalo = this.setInterval(function() {
